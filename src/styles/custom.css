@@ -1,0 +1,31 @@
+/* Custom dropdown styling */
+select option {
+  background-color: rgb(190, 190, 190) !important;
+  color: #000000 !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  margin: 2px !important;
+  transition: background-color 0.3s ease !important;
+}
+
+select option:checked {
+  background-color: rgba(59, 130, 246, 0.3) !important;
+  color: white !important;
+}
+
+/* Make tooltip text white */
+.recharts-tooltip-item-name,
+.recharts-tooltip-item-value,
+.recharts-tooltip-item-separator,
+.recharts-default-tooltip p {
+  color: white !important;
+}
+
+/* Custom tooltip animations */
+.recharts-tooltip-wrapper {
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+}
+
+.recharts-tooltip-wrapper.recharts-tooltip-wrapper-active {
+  transform: scale(1.05) !important;
+}
