@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="min-h-screen">
-      <nav className="glass-card m-4 p-4">
+      <nav className="glass-card m-2 p-3">
         <div className="flex justify-between items-center">
           <motion.div 
             className="flex items-center space-x-2"
@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
         </div>
       </nav>
       
-      <main className="container mx-auto px-4 pb-8">
+      <main className="container mx-auto px-4 pb-4">
         {children}
       </main>
     </div>

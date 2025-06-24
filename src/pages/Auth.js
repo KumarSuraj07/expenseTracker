@@ -38,7 +38,7 @@ const Auth = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
+    <div className="flex items-center justify-center p-4 mt-28">
       <motion.div
         className="glass-card p-8 w-full max-w-md"
         initial={{ opacity: 0, y: 20 }}
